@@ -148,6 +148,7 @@ main ul li img{
 }
 main ul li{
 	text-align: center;
+	cursor: pointer;
 }
 
 main ul li h2{
@@ -363,10 +364,60 @@ main  p.tittle-projeto{
 	text-align: center;
 }
 
-main p:nth-child(2){
+main p#OBJ-projeto{
 	font-family: sans-serif;
-
+	border-bottom: #b1b1b1 solid 2px;
+	padding-bottom: 1vw;
+	margin-bottom: 4vw;
+}
+main section.projetos{
+	margin: 8vw 0 0 0;
 }
 main section.projetos div{
 	display: flex;
+	justify-content: center;
+}
+main section.projetos div h1{
+	margin-top: 1.6vw;
+	padding: 0;
+}
+main section.projetos div img{
+	border: solid #b1b1b1 1px;
+	margin-left: 1vw;
+}
+main section.projetos strong{
+	font-weight: bold;
+}
+main section.projetos p{
+	font-size: 1.8rem;
+	margin: 2vw 0 ;
+	text-align: justify;
+	line-height: 2rem;
+	margin: 3vw 10vw 0 10vw;
+	border: #b1b1b1 solid 2px;
+	border-radius: 2vw;
+	padding: 1vw;
+	border-top: white;
+}
+
+/*PG Participantes=========================================================*/
+
+main section.participantes{
+	justify-content: center;
+	margin-top: 15vw;
+	border: solid 2px #b1b1b1;
+	border-top: none;
+	border-radius: 2vw;
+}
+main section.participantes h3{
+	text-align: center;
+	margin: 7vw 0 0 0;
+	font-size: 3rem;
+	font-family: "comfortaa";
+}
+main section.participantes p.img{
+	text-align: center;
+}
+main section.participantes p{
+	text-align: justify;
 }
